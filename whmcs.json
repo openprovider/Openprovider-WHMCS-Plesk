@@ -1,0 +1,33 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-servers",
+    "name": "openprovider_plesk_license",
+    "category": "provisioning",
+    "description": {
+        "name": "OpenProvider Plesk License Module",
+        "tagline": "Manage Plesk Licenses Easily with OpenProvider Integration.",
+        "long": "The OpenProvider Plesk License Module for WHMCS allows hosting providers to manage Plesk licenses through OpenProvider. This module enables WHMCS admins to retrieve license details, enforce IP binding, and send custom email notifications with license information.",
+        "features": [
+            "Retrieve Plesk license details from OpenProvider",
+            "IP binding restrictions for added security",
+            "Detailed license information retrieval",
+            "WHMCS admin panel control for easy management",
+            "Custom email notifications for license details"
+        ]
+    },
+    "logo": {
+        "filename": "logo.webp"
+    },
+    "support": {
+        "homepage": "https:\/\/www.whmcsglobalservices.com\/", 
+        "email": "support@whmcsglobalservices.com", 
+        "support_url": "https://members.whmcsglobalservices.com/submitticket.php",
+        "docs_url": ""
+    },
+    "authors": [
+        {
+            "name": "WGS",
+            "homepage": "https:\/\/www.whmcsglobalservices.com\/"
+        }
+    ]
+}

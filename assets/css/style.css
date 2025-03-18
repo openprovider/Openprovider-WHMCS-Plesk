@@ -1,0 +1,206 @@
+.client-plsk-license-details {
+  width:100%;
+  margin:20px 0;
+}
+.client-plsk-license-details .card-title, .client-plsk-license-details .card-text {
+    text-align: left;
+    width:100%;
+    margin: 5px 0px;
+}
+.client-plsk-license-details .card-title
+{
+    font-weight:600;
+}
+.client-plsk-license-details .header h3{
+    margin-top: 20px;
+}
+
+.client-plsk-license-details .header-inner {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;  /* Ensure full width */
+    margin-bottom: 20px;
+
+}
+.client-plsk-license-details .header-inner  .copy-btn, .install-cmd-sec .copy-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    color: #53a540;
+}
+
+.copy-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.client-plsk-license-details .header-inner  .copy-btn:hover , .install-cmd-sec .copy-btn:hover{
+    color: #53a540;
+}
+.client-plsk-license-details span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.plsk-license-details
+{
+    margin: 30px 0px 0 0;
+}
+ul.plsk-license-details {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+ul.plsk-license-details span {
+    font-weight: 700;
+    font-size: 16px;
+}
+ul.plsk-license-details p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.client-plsk-license-details .table-bordered td, .table-bordered th, .license-extensions .table-bordered td, .license-extensions .table-bordered th{
+    border-left: transparent;
+    border-right: transparent;
+    text-align: left;
+    font-size: 14px;
+}
+.license-enable-features li {
+    text-align:left;
+}
+.license-extensions {
+    margin-top: 40px;
+}
+
+.license-extensions .card-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3c669b;
+}
+
+div#configoptions {
+  text-align: left;
+}
+.client-plsk-license-details .row .col-sm-5, .client-plsk-license-details .row .col-sm-7 {
+    padding: 8px 0;
+}
+.module-client-area {
+    padding: 5px 15px 0 15px;
+}
+.client-plsk-license-details h3 {
+    font-size: 20px;
+    text-align: left;
+    margin: 40px 0 12px 0;
+    color: #000;
+    font-weight: 600;
+}
+.client-plsk-license-details .row {
+    padding: 0 !important;
+    margin: 0;
+}
+.client-plsk-license-details .container.text-center{
+    padding: 0;
+    text-align: left !important;
+    margin-top: 30px !important;
+}
+.license-extensions table {
+    border: 1px solid #ccc;
+}
+.license-extensions table th, .license-extensions table td {
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+}
+.license-extensions h3 {
+    font-weight: 600;
+}
+.install-cmd-sec span {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 3px 0px;
+}
+.install-cmd-sec {
+    margin-top: 30px;
+}
+button#ip_modalbtn {
+    margin-left: 20px;
+    font-size: 12px;
+    padding: 4px 9px;
+}
+.install-cmd-sec .card {
+    background: #f5f5f5;
+}
+.install-cmd-sec .card-title {
+    margin-bottom: 18px;
+}
+.license-extensions .card {
+    margin-bottom: 20px;
+}
+div#error-msg {
+    text-align: left;
+}
+#ipModal .alert-danger{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.active-key{
+    color:#53a540;
+}
+.install-cmd-sec .copy-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.license-extensions .toggle-btn
+{
+    margin-left: 20px;
+    font-size: 12px;
+    padding: 4px 9px;
+}
+
+/** Admin CSS **/
+ul.license-details li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul.license-details {
+    margin-top: 20px;
+    max-width: 530px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+}
+div#servicecontent ul.license-details li {
+    padding: 10px !important;
+    height: auto;
+}
+ul.license-details li:nth-child(even) {
+    background: #f4f4f4;
+}
+.license-extensions table {
+    border: 1px solid #ccc;
+    margin: 20px 20px;
+}
+.license-extensions table th, .license-extensions table td {
+    border: transparent;
+    width: 150px;
+    border-bottom: 1px solid #dfdfdf;
+    background: #fff;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-align: center;
+}
